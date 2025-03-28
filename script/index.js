@@ -15,6 +15,7 @@ function displayCategories(categories){
         // create element
         const categoryDiv = document.createElement('div');
 
+        console.log(categoryDiv)
         categoryDiv.innerHTML = `
             <button class="btn btn-sm hover:bg-[#FF1F3D] hover:text-white">${category.category}</button>
         `;
